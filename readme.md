@@ -1,54 +1,20 @@
-![Boilerplate](https://github.com/tbranyen/backbone-boilerplate/raw/assets/header.png)
+backbonepoc
+===========
 
-Backbone Boilerplate
-====================
+node, Backbone and  ZeptoJS  POC
 
-This boilerplate is the product of much research and frustration.  Existing
-boilerplates freely modify Backbone core, lack a build process, and are very
-prescriptive; Backbone Boilerplate changes that.
+This is an evaluation and learning exercise.
+Should prove how Backbone MVC integrates with node and Zepto will enhance the mobile experience.
 
-Organize your application with a logical file structure, develop your
-Models/Collections/Views/Routers inside modules, and build knowing you have
-efficient code that will not bottleneck your users.
-
-Thanks to our
-[Contributors](https://github.com/tbranyen/backbone-boilerplate/contributors)!
-
-Special Thanks to: [cowboy](http://github.com/cowboy),
-[iros](http://github.com/iros), [nimbupani](http://github.com/nimbupani),
-[wookiehangover](http://github.com/wookiehangover), and
-[jugglinmike](http://github.com/jugglinmike) for helping me create this project.
-
-Extra Special Thanks to: [Paul Guinan](http://bigredhair.com/work/paul.html)
-for giving me usage rights to his fantastic Boilerplate character.
-
-## Getting started ##
-
-The easiest way to get started is to install Git and clone the repository:
-
-``` bash
-# Create a new project directory and enter it.
-mkdir myproject && cd myproject
-
-# Using Git, fetch only the last few commits.  You don't need the full history
-# for your project.
-git clone --q --depth 0 git@github.com:tbranyen/backbone-boilerplate.git .
-```
-
-## Documentation ##
-
-View the Backbone Boilerplate documentation here:
-
-[GitHub Wiki](https://github.com/tbranyen/backbone-boilerplate/wiki)
-
-## Build process ##
-
-To use the new and improved build process, please visit the 
-[grunt-bbb](https://github.com/backbone-boilerplate/grunt-bbb)
-plugin repo and follow the instructions to install.  Basing your project off
-this repo will allow the `bbb` commands to work out-of-the-box.
+TODO:
+ - create client/server side models,controllers;
+ - crete simple test using mocha;
+ - create client side views (at least 2 navigation steps);
+ - create multiple sprite animations and switch based on themes;
+ - preload resources and test playing background sound;
+ - animate on tap and play sound;
+ - optimize for mobile using Zepto;
 
 
-## License
-Copyright (c) 2013 Tim Branyen (@tbranyen)  
-Licensed under the MIT license.
+
+
